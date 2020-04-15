@@ -1,0 +1,64 @@
+/*
+nav bar
+Hero section
+raw section with articals
+Images
+side by side article
+
+
+*/
+
+body{
+    margin: 0;
+    color: gold;
+}
+
+.navbar{
+    background-color: gold;
+    padding: 10;
+    height: 80px;
+    color: green;
+}
+.navbar-link{
+    color: indigo;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.hero{
+    height: 400px;
+    background: darkslateblue;
+    background: url(jens-kreuter-ngMtsE5r9eI-unsplash.jpg) no-repeat center;
+    text-align: center;
+    padding: 25px 0;
+    color: blue;
+    font-size: medium;
+    
+  
+}
+.fit{
+    width: 50px;
+}
+.row{
+    display: inline-block;
+}
+
+.article{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 05px;
+    width: 33%;
+}
+.article-image{
+    max-width: 100%;
+    max-height: 100%;
+}
+.article-tag{
+    background-color: #f7580f;
+    color: #fff;
+    border-radius: 5px;
+}
+.logo-1{
+    height: 90px;
+    width: 170px;
+}
